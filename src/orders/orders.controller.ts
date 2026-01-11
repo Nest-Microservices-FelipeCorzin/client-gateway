@@ -67,5 +67,6 @@ export class OrdersController {
     } catch (error) {
       throw new RpcException(error);
     }
+    
   }
 }
